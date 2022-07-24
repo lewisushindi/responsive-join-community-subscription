@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    padding: 10px;
+    color: hsl(218, 22%, 67%);
+    background: hsl(204, 43%,93%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 2px;
+    color: #000;
+}
+.join{
+     background: white;
+     height: 200px;
+     padding: 20px;
+     border-radius: 5px;
+}
+.join h2{
+    color: rgb(17, 102, 237);
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.join h3{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.join p{
+    font-size: 16px;
+}
+.sign-up{
+    display: flex;
+    flex-direction: row;
+    color: #fdfdfd;
+}
+.monthly-sub{
+    width: 50%;
+    padding: 20px;
+    background: hsl(179, 62%, 43%);
+}
+.monthly-sub h3{
+    margin-bottom: 10px;
+}
+.monthly-sub span{
+    font-size: 30px;
+}
+.monthly-sub p{
+    margin-bottom: 10px;
+}
+.monthly-sub button{
+    background: hsl(71, 73%, 54%);
+    color: #fdfdfd;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 215px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.why-us{
+    width: 50%;
+    padding: 20px;
+    background: hsl(179, 82%, 44%);
+    
+}
+.why-us h3{
+    margin-bottom: 5px;
+}
+@media(max-width:665px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        width: 100%;
+       
+    }
+    .join{
+        background: white;
+        height: auto;
+        padding: 20px;
+   }
+   .sign-up{
+    display: flex;
+    flex-direction: column;    
+  }
+  .monthly-sub{
+    width: 100%;    
+}
+.why-us{
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;    
+}
+}
